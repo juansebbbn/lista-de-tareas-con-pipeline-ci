@@ -1,0 +1,29 @@
+[
+  {
+    "id": "34be2a07-9f0d-462e-b645-00c7ae510add",
+    "title": "Configurar GitHub Actions",
+    "description": "Crear el archivo main.yml para el CI/CD",
+    "priority": "HIGH",
+    "dueDate": "2026-02-22T12:00:00.000Z",
+    "status": "PENDING",
+    "createdAt": "2026-02-22T21:17:06.461Z"
+  },
+  {
+    "id": "aa0862a5-5697-4681-91f3-b76b973d22f5",
+    "title": "Configurar GitHub Actions",
+    "description": "Crear el archivo main.yml para el CI/CD",
+    "priority": "HIGH",
+    "dueDate": "2026-02-22T12:00:00.000Z",
+    "status": "PENDING",
+    "createdAt": "2026-02-22T21:18:38.972Z"
+  },
+  {
+    "id": "3c3e5f47-c305-440c-a4e3-5c30fae864f9",
+    "title": "Configurar GitHub Actions",
+    "description": "Crear el archivo main.yml para el CI/CD",
+    "priority": "HIGH",
+    "dueDate": "2026-02-22T12:00:00.000Z",
+    "status": "PENDING",
+    "createdAt": "2026-02-22T21:23:29.219Z"
+  }
+]
