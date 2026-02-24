@@ -1,25 +1,11 @@
 # Gestión de Tareas (Node + TypeScript)
 
-Proyecto simple de ejemplo: una API REST para gestionar tareas.
+Proyecto simple de ejemplo: una API REST para gestionar tareas. (EL proyecto es simple pero se le agrega un pipeline ci)
 
 Características principales
 - Endpoints para crear, listar, actualizar estado y borrar tareas.
 - `TaskService` por defecto corre en memoria (sin persistencia) en esta rama.
 - Tests básicos con Vitest y workflow de CI configurado.
-
-Instalación y desarrollo
-1. Instalar dependencias:
-```powershell
-npm ci
-```
-2. Ejecutar en modo desarrollo:
-```powershell
-npm run dev
-```
-3. Compilar TypeScript:
-```powershell
-npm run build
-```
 
 API (resumen)
 - GET `/tasks` — devuelve todas las tareas (opcional `?status=PENDING|COMPLETED`).
@@ -38,7 +24,6 @@ CI / GitHub Actions
   - Type-check con `tsc --noEmit`.
   - Ejecuta tests (`npm test`) — hoy usa `vitest`.
   - Matriz de Node: prueba en Node 18.x y 20.x.
-
 
 Archivo principal
 - `src/app.ts` arranca un servidor Express en `http://localhost:3000`.
